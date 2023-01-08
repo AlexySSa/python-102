@@ -16,8 +16,6 @@ paises = ['col', 'mex', 'bol', 'pe']
 poblacion = {}
 for pais in paises:
   poblacion[pais] = random.randint(1, 100)
-
-  
 print(poblacion) #{'col': 18, 'mex': 92, 'bol': 40, 'pe': 34}
 
 

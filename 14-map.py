@@ -2,6 +2,7 @@ numbers = [1, 2, 3, 4]
 numbers_v2 = []
 for i in numbers:
   numbers_v2.append(i * 2)
+  
 #todo lo que esta en el map se covierte en una lista gracias a list
 numbers_v3 = list(map(lambda i:i * 2, numbers))
 

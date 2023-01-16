@@ -1,8 +1,5 @@
 import utils
 
-keys, value = utils.get_population()
-
-print(keys, value)
 
 data = [
   {
@@ -14,11 +11,23 @@ data = [
     'population': 300
   }
 ]
+  
 
-country = input('Type country => ')
+def run():
 
-result = utils.population_by_country(data, country)
-print(result)
+  keys, value = utils.get_population()
+  
+  print(keys, value)
+  
+  country = input('Type country => ')
+  
+  result = utils.population_by_country(data, country)
+  print(result)
+  
+  print(utils.a)
 
-print(utils.a)
+if __name__ == '__main__':
+  run()
 
+  '''Este if dice que si es ejecutado desde la terminal, entre al run y si es ejecutado desde otro archivo, no se ejecuta.'''
+  

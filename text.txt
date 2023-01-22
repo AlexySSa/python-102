@@ -1,8 +1,3 @@
-line 1
-line 2
-line 3
-line 4
-sgs
-sgrsdvb
-dsgadedrg
-asdgdas
+nuevas cosas en este archivo
+otra linea nueva
+otra linea nueva mas
